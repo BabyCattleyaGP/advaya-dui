@@ -2,6 +2,7 @@
     padding: 5px;
     overflow: visible;
     background-color: $navbar-bg;
+    background-color: #252422;
     top: 70px;
     padding-bottom: 20px;
 
@@ -24,7 +25,9 @@
 
                 &:hover {
                     background-color: #F8AA00;
+                    background-color: #F4F3EF;
                     color: #fff;
+                    color: #333;
                 }
 
                 &:before {
