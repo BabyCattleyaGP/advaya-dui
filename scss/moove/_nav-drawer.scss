@@ -128,7 +128,8 @@
 
             &:hover {
                 width: 260px;
-                background-color: $navbar-bg-hover;
+                // background-color: $navbar-bg-hover;
+                background-color: #fbfbfb;
 
                 &[data-key="mycourses"] {
                     border-bottom-right-radius: 0;
