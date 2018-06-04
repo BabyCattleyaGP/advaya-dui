@@ -23,10 +23,11 @@
 }}
 <div id="top-footer" class="container-fluid">
     <div class="row-fluid">
-        <div class="col-md-7 contact">
+      {{>theme_moove/help_desk}}
+        <div class="col-md-7 contact" style="display: none">
             <h3>{{#str}}stayintouch, theme_moove{{/str}}</h3>
             <h4>{{{getintouchcontent}}}</h4>
-            <ul>
+            <ul style="display: none">
                 {{#website}}<li><i class="icon-globe"></i>{{{website}}}</li>{{/website}}
                 {{#mobile}}<li><i class="icon-phone"></i>{{{mobile}}}</li>{{/mobile}}
                 {{#mail}}<li><i class="icon-envelope"></i>{{{mail}}}</li>{{/mail}}
