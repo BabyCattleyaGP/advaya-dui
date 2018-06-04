@@ -1,4 +1,4 @@
-#nav-drawer {
+﻿#nav-drawer {
     padding: 5px;
     overflow: visible;
     background-color: $navbar-bg;
@@ -128,8 +128,7 @@
 
             &:hover {
                 width: 260px;
-                // background-color: $navbar-bg-hover;
-                background-color: #fbfbfb;
+                background-color: #f4f3ef;
 
                 &[data-key="mycourses"] {
                     border-bottom-right-radius: 0;
@@ -147,7 +146,8 @@
                     display: block;
                     height: auto;
                     overflow: auto;
-                    background-color: $navbar-bg;
+                    // background-color: $navbar-bg;
+                    background-color: #f4f3ef;
                     position: absolute;
                     left: 60px;
                     top: 45px;
